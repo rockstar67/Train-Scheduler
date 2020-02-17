@@ -1,15 +1,15 @@
-//! moment.js
+    //! moment.js
 
-;(function (global, factory) {
+    ;(function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
     global.moment = factory()
-}(this, (function () { 'use strict';
+    }(this, (function () { 'use strict';
 
     var hookCallback;
 
     function hooks () {
-        return hookCallback.apply(null, arguments);
+    return hookCallback.apply(null, arguments);
     }
 
     // This is done to register the method called with moment()
